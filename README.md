@@ -1,16 +1,18 @@
 # 👋 Francisco Honorat | Full Stack Developer
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=60&lines=Full+Stack+Developer;Systems+Architecture;Production+Ready+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=5B8CFF&center=true&vCenter=true&width=620&height=60&lines=Full+Stack+Developer;Go+%26+Node.js+Backends;Clean+%26+Hexagonal+Architecture;Production-Ready+Code" alt="Typing SVG" />
 </div>
 
 ---
 
-## 🚀 Sobre Mim
+## 🚀 About Me
 
-Sou um **desenvolvedor full stack** apaixonado por código elegante, arquitetura sólida e sistemas escaláveis. Com experiência em **sistemas distribuídos** e **produção real**, trabalho para criar soluções que fazem diferença.
+I'm a **full stack developer** who enjoys turning complex problems into clean, maintainable software. My work spans the whole stack — building backends in **Go** and **Node.js / TypeScript**, modeling data with PostgreSQL, MongoDB and Redis, and crafting modern interfaces with **React**.
 
-> 💡 **Filosofia**: *Clean code, SOLID principles, e foco em decisões técnicas bem fundamentadas.*
+I care about the fundamentals: **Hexagonal / Clean Architecture**, SOLID principles, validation, security and observability. I've built everything from Go microservices communicating over **gRPC** with event-driven RabbitMQ flows, to a production-grade observability platform with Redis Streams.
+
+> 💡 *Clean code, solid architecture, and well-reasoned technical decisions.*
 
 ---
 
@@ -18,76 +20,81 @@ Sou um **desenvolvedor full stack** apaixonado por código elegante, arquitetura
 
 <div align="center">
 
-### **Backend**
+### Backend
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Gin](https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=gin&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-202020?style=for-the-badge&logo=fastify&logoColor=white)
 
-### **Frontend**
+### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white)
 
-### **Databases & Cache**
+### Data & Messaging
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-001119?style=for-the-badge&logo=timescaledb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
-### **DevOps & Tools**
+### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 Estatísticas
+## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FranciscoHonorat&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&bg_color=0d1117&text_color=c9d1d9&title_color=3B82F6&icon_color=3B82F6" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoHonorat&layout=compact&theme=dracula&bg_color=0d1117&text_color=c9d1d9&title_color=3B82F6" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FranciscoHonorat&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoHonorat&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </div>
 
 ---
 
-## 🎯 Projetos em Destaque
+## 🎯 Featured Projects
 
-<div align="center">
+### 🔭 Hermes Observability Platform
+Production-ready observability for Node.js apps — agent SDK, collector, processor and React dashboard. Metrics flow through Redis Streams and persist in TimescaleDB, with threshold-based email alerts.
 
-### **🔥 Hermes Observability**
-Plataforma de observabilidade completa com collector, processor, API e dashboard  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
+`Node.js` · `TypeScript` · `Redis Streams` · `TimescaleDB` · `React`
+🔗 [Repository](https://github.com/FranciscoHonorat/hermes-observability)
 
-🔗 [Ver Repositório](https://github.com/FranciscoHonorat/hermes-observability)
+### 🎬 Movies API — Go Microservices
+Movie REST API built as Go microservices: an HTTP API Gateway and a gRPC Movies Service communicating via Protobuf. Hexagonal architecture, MongoDB/DynamoDB (LocalStack) adapters, event-driven creation via RabbitMQ, Swagger docs, Kubernetes manifests and 20 unit tests.
 
----
+`Go` · `gRPC` · `RabbitMQ` · `MongoDB` · `Kubernetes` · `Docker`
+🔗 [Repository](https://github.com/FranciscoHonorat/movies)
 
-### **🗺️ Sistema de Geolocalização e Rotas**
-Web app com integração OpenStreetMap, Nominatim e OSRM com Clean Architecture  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+### 📗 Books API — Go REST
+REST API in Go for managing a book collection with filtering, pagination and sorting. Clean handler / service / repository layers, PostgreSQL with sqlc, Prometheus metrics, rate limiting, TLS, structured logging (slog) and graceful shutdown — fully containerized.
 
-🔗 [Ver Repositório](https://github.com/FranciscoHonorat/Sistema-de-Geolocaliza--o-e-Rotas)
+`Go` · `Gin` · `PostgreSQL` · `sqlc` · `Prometheus` · `Docker`
+🔗 [Repository](https://github.com/FranciscoHonorat/REST-API-Golang)
 
----
+### 💼 Mundo Invest — Go Backend
+Customer-management REST API in Go with a simulated Pipefy integration over GraphQL. Hexagonal architecture (ports & adapters), async event publishing to RabbitMQ, idempotent webhooks, SQLite persistence and Kubernetes manifests.
 
-### **🌐 API REST - Student Management**
-API robusta com autenticação, rate limiting, validação Zod, Redis cache e 25+ endpoints  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+`Go` · `GraphQL` · `RabbitMQ` · `SQLite` · `Kubernetes`
+🔗 [Repository](https://github.com/FranciscoHonorat/mundo-invest)
 
-🔗 [Ver Repositório](https://github.com/FranciscoHonorat/API-REST)
+### 🤖 B2B Product Scraper
+Production-grade universal scraper for B2B portals. A 3-level fallback strategy (selector → alternative → smart parsing), robust BRL/USD price parsing, 100% type-safe with Zod, persisted to Supabase/PostgreSQL. CLI for single, CSV and JSON batches.
 
-</div>
+`TypeScript` · `Playwright` · `Supabase` · `Zod` · `PostgreSQL`
+🔗 [Repository](https://github.com/FranciscoHonorat/b2b-product-scraper)
+
+### 🗺️ Geolocation & Routing System
+Geocoding and optimized route calculation with an interactive map. Clean Architecture, multiple map providers (Google Maps, OpenStreetMap, ViaCEP), Haversine distance, Redis caching, rate limiting and Zod validation — with a React + Leaflet frontend.
+
+`Node.js` · `TypeScript` · `React` · `Leaflet` · `Redis`
+🔗 [Repository](https://github.com/FranciscoHonorat/Sistema-de-Geolocaliza--o-e-Rotas)
 
 ---
 
@@ -95,73 +102,35 @@ API robusta com autenticação, rate limiting, validação Zod, Redis cache e 25
 
 <table align="center">
 <tr>
-<td align="center">
-<h3>🔴 Backend Enterprise</h3>
-APIs REST robustas, microserviços, padrões enterprise, autenticação JWT
-</td>
-<td align="center">
-<h3>⚛️ Frontend Moderno</h3>
-React componentes reutilizáveis, UX/UI responsivo, state management
-</td>
+<td align="center"><h3>🐹 Go Backends</h3>Microservices, gRPC + Protobuf, hexagonal architecture, event-driven design</td>
+<td align="center"><h3>🟢 Node.js & TS</h3>Robust REST APIs, validation, auth, rate limiting, Swagger docs</td>
 </tr>
 <tr>
-<td align="center">
-<h3>🏗️ Arquitetura</h3>
-Sistemas distribuídos, escalabilidade, Clean Architecture
-</td>
-<td align="center">
-<h3>📊 Dados</h3>
-PostgreSQL, Redis Streams, cache strategy, query optimization
-</td>
+<td align="center"><h3>🏗️ Architecture</h3>Clean & Hexagonal Architecture, SOLID, scalability and testability</td>
+<td align="center"><h3>📊 Data & Messaging</h3>PostgreSQL, MongoDB, Redis Streams, RabbitMQ, caching strategy</td>
 </tr>
 <tr>
-<td align="center">
-<h3>🔐 Segurança</h3>
-JWT, validação, sanitização, rate limiting
-</td>
-<td align="center">
-<h3>🤖 DevOps</h3>
-Docker, Git workflows, CI/CD, deployment strategies
-</td>
+<td align="center"><h3>🔐 Security</h3>JWT, sanitization, rate limiting, TLS, idempotency, OWASP practices</td>
+<td align="center"><h3>🤖 DevOps</h3>Docker, Kubernetes, Prometheus, CI/CD, Git workflows</td>
 </tr>
 </table>
 
 ---
 
-## 🌟 Destaques
-
-- ✅ **50+ Endpoints API** desenvolvidos e testados
-- ✅ **4+ Anos** de experiência em desenvolvimento
-- ✅ **7 Projetos** em produção demonstrando expertise
-- ✅ **100% Dedicação** a código de qualidade
-
----
-
-## 📬 Vamos Conversar?
+## 📬 Let's Connect
 
 <div align="center">
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-3B82F6?style=for-the-badge&logo=world&logoColor=white)](https://franciscohonorat.github.io/Portif-lio-/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-jefferson-batista-honorato/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-jefferson-batista-honorat/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FranciscoHonorat)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeffhonorato230@gmail.com)
 
 </div>
 
----
-
-## 📈 Activity
-
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FranciscoHonorat&theme=dracula&bg_color=0d1117&color=3B82F6&line=3B82F6&point=58A6FF&hide_border=true" width="100%"/>
-</div>
 
----
+### 🎓 *"Clean code isn't just about making it work — it's about communicating intent."*
 
-<div align="center">
-  
-### 🎓 *"Código limpo não é apenas sobre fazer funcionar. É sobre comunicar intenção."*
-
-**Sempre aprendendo, sempre crescendo! 🚀**
+**Always learning, always building. 🚀**
 
 </div>
